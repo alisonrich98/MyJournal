@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.office1.myjournal">
 
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -18,9 +18,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".NewEntry" ></activity>
         <activity android:name=".PromptEntry"></activity>
         <activity android:name=".archive"></activity>
+=======
+        <activity android:name=".NewEntry" />
+        <activity android:name=".PromptEntry" />
+        <activity android:name=".archive" />
+        <activity android:name=".ArchiveEntry"></activity>
+>>>>>>> 6d63c7cd5e63ebd167b53eb4a885d3161262d1c3
     </application>
 
 </manifest>

@@ -8,24 +8,24 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="70dp"
-        android:layout_height="29dp"
+        android:layout_width="88dp"
+        android:layout_height="31dp"
         android:autoText="false"
         android:text="Archives"
-        tools:layout_editor_absoluteX="265dp"
-        tools:layout_editor_absoluteY="48dp" />
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="47dp" />
 
     <LinearLayout
-        android:layout_width="584dp"
-        android:layout_height="777dp"
+        android:layout_width="535dp"
+        android:layout_height="746dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteX="32dp"
         tools:layout_editor_absoluteY="102dp">
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="98dp"
-            android:text="TextView" />
+            android:text="This is a test. date, time and record go here." />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
