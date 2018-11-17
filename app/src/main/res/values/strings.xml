@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">MyJournal</string>
     <string name="new_entry">New</string>
+
+    <string-array name="prompts">
+        <item>"Imagine your favorite fictional character has the same problems as you and write about how they'd solve them"</item>
+        <item>Imagine your anxiety as a monster and write a story about it</item>
+        <item>Write a letter to a friend</item>
+        <item>Imagine your friend is going through the same thing as you. Write them a letter of advice</item>
+        <item>Make a list of what is making you feel anxious right now. Make a larger list of things you are thankful for</item>
+        <item>List everything you can see right now. List everything you can hear. List what you can feel, smell, and taste</item>
+        <item>Draw a picture of your anxiety as a monster. Then destroy it</item>
+        <item>Take 5 minutes a write down everything that comes into your mind. Then destroy it.</item>
+    </string-array>
+
 </resources>
