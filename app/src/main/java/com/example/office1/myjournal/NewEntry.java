@@ -13,12 +13,20 @@ public class NewEntry extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_new_entry);
         Button prompt = (Button)findViewById(R.id.prompt);
+        Button own = (Button)findViewById(R.id.button4);
 
         prompt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(NewEntry.this, PromptEntry.class);
                 startActivity(intent);
+            }
+        });
+
+        own.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(NewEntry.this, NoPromptEntry.class);
             }
         });
     }
