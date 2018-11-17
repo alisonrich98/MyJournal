@@ -27,6 +27,7 @@ public class NewEntry extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(NewEntry.this, NoPromptEntry.class);
+                startActivity(intent);
             }
         });
     }

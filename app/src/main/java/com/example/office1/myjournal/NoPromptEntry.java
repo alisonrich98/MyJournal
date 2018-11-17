@@ -76,10 +76,9 @@ public class NoPromptEntry extends AppCompatActivity {
             }
         });
         submit.setOnClickListener(new View.OnClickListener() {
-            @RequiresApi(api = Build.VERSION_CODES.O)
             @Override
             public void onClick(View view) {
-                JournalEntry entry;
+                //JournalEntry entry;
                 Toast.makeText(getApplicationContext(), "Submitted", Toast.LENGTH_SHORT).show();
 //                if(type.isChecked()) {
 //                    entry = new JournalEntry((String)type.getText(), LocalDateTime.now());
