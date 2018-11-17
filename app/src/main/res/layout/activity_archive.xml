@@ -10,17 +10,28 @@
         android:id="@+id/textView"
         android:layout_width="88dp"
         android:layout_height="31dp"
+        android:layout_marginTop="52dp"
         android:autoText="false"
         android:text="Archives"
-        tools:layout_editor_absoluteX="256dp"
-        tools:layout_editor_absoluteY="47dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="256dp" />
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="535dp"
         android:layout_height="746dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="102dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
 
         <TextView
             android:id="@+id/textView2"
