@@ -40,6 +40,7 @@ public class FreehandView extends View {
 
     public void setColor(int color) {
         paintColor = color;
+        drawPaint.setColor(color);
     }
 
     @Override
