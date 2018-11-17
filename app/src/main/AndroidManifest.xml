@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".NewEntry" />
-        <activity android:name=".PromptEntry"></activity>
+        <activity android:name=".PromptEntry" />
+        <activity android:name=".archive"></activity>
     </application>
 
 </manifest>
