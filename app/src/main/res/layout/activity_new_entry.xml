@@ -7,7 +7,7 @@
     tools:context=".NewEntry">
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/prompt"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="224dp"
         android:layout_height="135dp"
