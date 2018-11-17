@@ -13,12 +13,14 @@ import java.util.List;
 
 public class PromptEntry extends AppCompatActivity {
     int textColor;
+    private FreehandView drawView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_prompt_entry);
 
+        drawView = (FreehandView)findViewById(R.id.freehand);
         Spinner spinner = (Spinner) findViewById(R.id.spinner2);
 
         textColor = Color.BLACK;
@@ -42,7 +44,9 @@ public class PromptEntry extends AppCompatActivity {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                drawView.invalidate();
                 textColor = colors[i];
+                drawView.setColor(textColor);
             }
 
             @Override
