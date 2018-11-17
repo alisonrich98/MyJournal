@@ -81,16 +81,16 @@ public class NoPromptEntry extends AppCompatActivity {
             public void onClick(View view) {
                 JournalEntry entry;
                 Toast.makeText(getApplicationContext(), "Submitted", Toast.LENGTH_SHORT).show();
-                if(type.isChecked()) {
-                    entry = new JournalEntry((String)type.getText(), LocalDateTime.now());
-                    try {
-                        BufferedWriter bw = new BufferedWriter(new FileWriter(entry.filename));
-                        bw.write(entry.text);
-                        bw.close();
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
-                }
+//                if(type.isChecked()) {
+//                    entry = new JournalEntry((String)type.getText(), LocalDateTime.now());
+//                    try {
+//                        BufferedWriter bw = new BufferedWriter(new FileWriter(entry.filename));
+//                        bw.write(entry.text);
+//                        bw.close();
+//                    } catch (IOException e) {
+//                        e.printStackTrace();
+//                    }
+//                }
                 Intent intent = new Intent(NoPromptEntry.this, MainActivity.class);
                 startActivity(intent);
             }
